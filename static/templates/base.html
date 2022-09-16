@@ -1,0 +1,11 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css"/>
+    </head>
+    <body>
+        <h2>This content is coming from base.html</h2>
+        {% block content %}
+        {% endblock%}
+    </body>
+</html>
